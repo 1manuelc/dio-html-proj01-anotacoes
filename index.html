@@ -15,76 +15,906 @@ Utilizar novas tags sugeridas: <font>, <del>, <p>, <abbr> (a ideia é buscar est
 		<title>Desafio de Projeto 01 - Formação HTML DIO</title>
 	</head>
 	<body>
-		<h1>Conteúdos do Primeiro Módulo da Formação HTML da DIO</h1>
+		<h1>
+			Anotações do Curso Entendendo Comunicação Client x Server - DIO.me
+		</h1>
 		<hr />
 
-		<h2>Índice - Primeiros passos em HTML</h2>
+		<div id="indice">
+			<h2>Índice</h2>
 
-		<ol>
-			<li>
-				Entendendo comunicação Client X Server
+			<ol>
+				<li>
+					<a href="#entendendo-client-x-server"
+						>Entendendo comunicação Client X Server</a
+					>
 
-				<ul>
-					<li>
-						História da Web
-						<ul>
-							<li>Primeiros Computadores</li>
-							<li>Como Surgiu</li>
-							<li>Grandes Nomes</li>
-						</ul>
-					</li>
-				</ul>
+					<ul>
+						<li>
+							<a href="#historia-da-web">História da Web</a>
+							<ul>
+								<li>
+									<a href="#primeiros-computadores"
+										>Primeiros Computadores</a
+									>
+								</li>
+								<li>
+									<a href="#como-surgiu">Como Surgiu</a>
+								</li>
+								<li>
+									<a href="#grandes-nomes">Grandes Nomes</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
 
-				<ul>
-					<li>
-						O que são Clients
-						<ul>
-							<li>Cliente no Linguajar Web</li>
-							<li>Navegadores</li>
-							<li>Aplicações Web</li>
-							<li>Dispositivos Móveis</li>
-						</ul>
-					</li>
-				</ul>
+					<ul>
+						<li>
+							<a href="#o-que-sao-clients">O que são Clients</a>
+							<ul>
+								<li>
+									<a href="#cliente-no-linguajar-web"
+										>Cliente no Linguajar Web</a
+									>
+								</li>
+								<li>
+									<a href="#navegadores">Navegadores</a>
+								</li>
+								<li>
+									<a href="#aplicacoes-web">Aplicações Web</a>
+								</li>
+								<li>
+									<a href="#dispositivos-moveis"
+										>Dispositivos Móveis</a
+									>
+								</li>
+							</ul>
+						</li>
+					</ul>
 
-				<ul>
-					<li>
-						O que são Servers
-						<ul>
-							<li>Sobre Servidores</li>
-							<li>Hardware e Software em Servidores</li>
-							<li>Tipos de Servidores</li>
-							<li>Hospedagem de Sites</li>
-						</ul>
-					</li>
-				</ul>
+					<ul>
+						<li>
+							<a href="#o-que-sao-servers">O que são Servers</a>
+							<ul>
+								<li>
+									<a href="#sobre-servidores"
+										>Sobre Servidores</a
+									>
+								</li>
+								<li>
+									<a href="#hardware-e-software-servidores"
+										>Hardware e Software em Servidores</a
+									>
+								</li>
+								<li>
+									<a href="#tipos-de-servidores"
+										>Tipos de Servidores</a
+									>
+								</li>
+								<li>
+									<a href="#hospedagem-de-sites"
+										>Hospedagem de Sites</a
+									>
+								</li>
+							</ul>
+						</li>
+					</ul>
 
-				<ul>
-					<li>
-						Linguagens de Programação
-						<ul>
-							<li>O que é</li>
-							<li>Server-Side</li>
-							<li>Client-Side</li>
-							<li>HTML não é Linguagem de Programação</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
+					<ul>
+						<li>
+							<a href="#linguagens-de-programacao"
+								>Linguagens de Programação</a
+							>
+							<ul>
+								<li>
+									<a href="#o-que-e-linguagens">O que é</a>
+								</li>
+								<li>
+									<a href="#linguagens-server-side"
+										>Server-Side</a
+									>
+								</li>
+								<li>
+									<a href="#linguagens-client-side"
+										>Client-Side</a
+									>
+								</li>
+								<li>
+									<a
+										href="#html-nao-e-linguagem-de-programacao"
+										>HTML não é Linguagem de Programação</a
+									>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ol>
+		</div>
+		<br />
 
-			<li>
-				Introdução ao HTML na Prática
-				<ul>
-					<li>Ferramentas Utilizadas</li>
-					<li>Inspetor de Elementos</li>
-					<li>Estrutura Básica do HTML</li>
-					<li>Falando sobre Tags</li>
-					<li>Atributos das Tags</li>
-					<li>Textos</li>
-					<li>Listas Ordenadas e Não Ordenadas</li>
-					<li>Links</li>
-				</ul>
-			</li>
-		</ol>
+		<div id="entendendo-client-x-server">
+			<div id="historia-da-web">
+				<h2>História da Web</h2>
+
+				<div id="primeiros-computadores">
+					<h3>Primeiros Computadores</h3>
+
+					<h4>1ª Geração - Computadores de Válvulas e a guerra</h4>
+
+					<p>
+						<strong><i>Mark I (1944)</i></strong>
+						<br />Primeiro computador criado mesmo após os conceitos
+						de máquinas de cálculo, precedidas por Alan Turing por
+						exemplo. Primeiro computador eletromecânico.
+					</p>
+
+					<p>
+						<strong><i>Colossus e ENIAC (1946)</i></strong>
+						<br />Computadores focados em cálculos usados na guerra,
+						Colossus por parte da Alemanha e ENIAC pelos EUA. ENIAC
+						já não era eletromecânico, e sim automático. Era usado
+						para cálculos balísticos. <br />Curiosidade: termo bug
+						surgiu com os insetos invadindo as grandes máquinas
+						computacionais de guerra, criado por Grace Hopper.
+					</p>
+
+					<h4>2ª Geração (1959 a 1965) - Transistores</h4>
+					<p>
+						Evolução das válvulas por transistores, deixando os
+						computadores um pouco menores e mais portáteis.
+					</p>
+
+					<h4>3ª Geração (1965 a 1970) - Circuitos Integrados</h4>
+					<p>
+						Computadores agora são formados por associações de
+						pequenos dispositivos eletrônicos, que chamamos de
+						Circuitos Integrados, formados por:
+					</p>
+					<ul>
+						<li>Transistores</li>
+						<li>Capacitores</li>
+						<li>Resistores</li>
+					</ul>
+					<p>
+						Com muita pesquisa e inovação, os computadores se
+						tornaram mais eficazes do ponto de vista de hardware e
+						software, possibilitando mais aplicações no cotidiano.
+					</p>
+
+					<h4>4ª Geração (1971 até hoje)</h4>
+					<p>
+						Marcada pelos computadores pessoais, Bill Gates, Steve
+						Jobs, os dispositivos se tornaram mais populares e
+						acessíveis, com novos periféricos e utilidades.
+					</p>
+
+					<h4>5ª Geração (especulação)</h4>
+					<p>
+						Há quem diga que já estamos entrando numa nova geração,
+						com ambientes virtuais (Metaverso por exemplo), moedas
+						virtuais como Bitcoin, computadores quânticos e IA
+						(Inteligência Artificial).
+					</p>
+				</div>
+
+				<div id="como-surgiu">
+					<h3>Como surgiu a Internet</h3>
+
+					<p>
+						Se desenvolvendo paralelamente com os computadores, a
+						internet é um recurso fundamental na evolução
+						computacional e das comunicações globais.
+					</p>
+
+					<p>
+						Um dos primeiros meios de comunicação foi o telégrafo,
+						utilizando o código morse. Em 1958 foi passado um cabo
+						por todo um continente pelo mar melhorando essa
+						comunicação.
+					</p>
+
+					<p>
+						Na década de 1950, a Guerra Fria foi o vetor da criação
+						de muitas tecnologias durante a corrida espacial.
+					</p>
+
+					<p>
+						Surge a agência
+						<abbr
+							title="Defense Advanced Research Projects Agency (acrônimo DARPA; em português: Agência de Projetos de Pesquisa Avançada de Defesa)"
+							>DARPA</abbr
+						>
+						para melhorar o ENIAC. Joseph Carl plantou a semente,
+						teorizou na
+						<abbr
+							title="Defense Advanced Research Projects Agency (acrônimo DARPA; em português: Agência de Projetos de Pesquisa Avançada de Defesa)"
+							>DARPA</abbr
+						>
+						uma rede de comunicação onde todos poderiam se
+						comunicar, que foi motivo para as pesquisas começarem no
+						ramo.
+					</p>
+
+					<p>
+						Surgiu a Arpanet com sistemas de comunicação em pacotes
+						para múltiplos destinos, nós de comunicação conhecidos
+						como "checkpoints", ou "avô dos roteadores". A primeira
+						conexão entre dois pontos foi em 1969, estabelecida pela
+						Arpanet entre a Universidade da California (UCLA) e o
+						Instituto de Pesquisa de Stanford (SRI). Curiosamente a
+						mensagem enviada foi "LOGIN", mas só chegou "LO".
+					</p>
+
+					<p>
+						A Arpanet implementou o protocolo <abbr title="Transmission Control Protocol (Protocolo de Controle de Transmissão) / Internet Protocol (Protocolo de Internet)">TCP/IP</abbr> criado por
+						Vinton Cerf e Robert Kahn, tornando as redes mais
+						robustas e criando subredes como a "MILNET", "NSFNET" e
+						"ESnet" e até a "NASA" teve a sua.
+					</p>
+
+					<p>
+						Como a Internet ainda era algo muito científico ou
+						militarizado, em 1989, Tim Berners-Lee uniu hipertext
+						com o protocolo de Cerf e Kahn e criou a World Wide Web
+						(WWW) junto com um navegador de mesmo nome. Tornando uma
+						parte da Internet pública, acessável e intuitiva, o
+						princípio do que temos hoje. A primeira página da web
+						foi
+						<a href="http://info.cern.ch/">"http://info.cern.ch/"</a
+						>", publicada em 6 de agosto de 1991.
+					</p>
+				</div>
+
+				<div id="grandes-nomes">
+					<h3>Grandes nomes envolvidos</h3>
+					<ul>
+						<li>
+							<strong>Grace Murray Hopper</strong>
+							<p>
+								Oficial da marinha dos EUA. Uma das primeiras
+								programadoras do Mark I em 1994. Criadora da
+								primeira linguagem de programação de alto nível
+								Flow-Matic (que é a base do COBOL). Popularizou
+								o termo bug na computação.
+							</p>
+						</li>
+
+						<li>
+							<strong>Robert Carl Robnett Licklider</strong>
+							<p>
+								Recrutado pela
+								<abbr
+									title="Defense Advanced Research Projects Agency (acrônimo DARPA; em português: Agência de Projetos de Pesquisa Avançada de Defesa)"
+									>DARPA</abbr
+								>
+								depois de teorizar uma rede "galática" entre
+								computadores. Plantou a semente da comunicação
+								entre dois pontos distintos através do
+								computadores.
+							</p>
+						</li>
+
+						<li>
+							<strong>Robert E. Kahn</strong>
+							<p>
+								Primeira apresentação pública da Arpanet.
+								Apresentou o primeiro email. Um dos criadores do
+								TCP/IP com Vinton Cerf.
+							</p>
+						</li>
+
+						<li>
+							<strong>Tim Berners-Lee</strong>
+							<p>
+								Inventor do WWW. Diretor do World Wide Web
+								Consortion (W3C). Teve diversas homenagens, como
+								cavaleiro dado pela rainha Elizabeth II.
+								Popularizou o HTTP e o HTML.
+							</p>
+						</li>
+
+						<li>
+							<strong>Marc Adreessen</strong>
+							<p>
+								Reinventou o navegador, criou o Netscape a
+								partir do Mosaic, com recursos gráficos mais
+								"amigáveis para o usuário". Deteve 90% da
+								Internet na época, sendo superado somente pela
+								Microsoft com o Internet Explorer mais tarde.
+							</p>
+						</li>
+
+						<li>
+							<strong>Bill Gates</strong>
+							<p>
+								Fundador da Microsoft, dona do Internet
+								Explorer. Tornou acessível para todos o
+								computador, e com isso o acesso à internet por
+								conta do IE que vinha por padrão no sistema
+								Windows, também da empresa.
+							</p>
+						</li>
+
+						<li>
+							<strong>Steve Jobs</strong>
+							<p>
+								Fundador da Apple, concorrente direta da
+								Microsoft. Popularizou o mouse e os smartphones
+								através do lançamento do iPhone em 29 de junho
+								de 2007.
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="o-que-sao-clients">
+				<h2>O que são Clients</h2>
+
+				<div id="cliente-no-linguajar-web">
+					<h3>Cliente no Linguajar Web</h3>
+
+					<p>
+						Um cliente na web é um dispositivo que consome
+						informações de outros dispositivos maiores, ou seja, é
+						qualquer dispositivo que recebe dados de um servidor.
+					</p>
+
+					<p>
+						Isso acontece de forma flúida nas páginas da web quando
+						recebemos pacotes de páginas inteiras usando o
+						navegador. Através do servidor associado á uma página,
+						recebemos todo o seu código HTML, CSS, JavaScript e
+						arquivos estáticos como imagens, vídeos, aúdios e e etc.
+						Esses dados são baixados pelo navegador e deixados na
+						memória cache, para não precisarmos fazer download a
+						todo momento e poupar recursos.
+					</p>
+
+					<p>
+						De certa forma, todo dispositivo tem suas próprias
+						características e limitações de hardware e software,
+						assim é necessário testar, validar e ter boas práticas
+						de desenvolvimento para web, sendo elas:
+					</p>
+
+					<ul>
+						<li>
+							<strong
+								>Responsividade ou Design Responsivo:</strong
+							>
+							<p>
+								Adaptabilidade de elementos de uma página da web
+								como layout e mídias específicas para a tela do
+								dispositivo que está requisitando. É
+								responsabilidade de quem desenvolve o Front-End
+								do site.
+							</p>
+						</li>
+
+						<li>
+							<strong>Compatibilidade:</strong>
+							<p>
+								Cada navegador têm suas limitações e
+								diferenciais se compararmos um a um (mesmo
+								partindo de uma mesma padronização de criação),
+								tendo recursos a mais ou a menos devemos ter
+								cuidado com o que requisitamos. Visto que um
+								navegador não tem um recurso que precisamos,
+								talvez seja necessário rever esse conteúdo com
+								boas práticas de desenvolvimento e testes.
+							</p>
+						</li>
+					</ul>
+				</div>
+
+				<div id="navegadores">
+					<h3>Navegadores</h3>
+
+					<p>
+						Programas criados por empresas utilizados para abrir e
+						executar arquivos, principalmente os arquivos que vêm de
+						servidores web contendo pacotes de site, mas também
+						arquivos locais. Ferramenta para utilizar a internet.
+						Seguem os padrões da W3C, mas podem ter diferenças de
+						implementação.
+					</p>
+
+					<p>
+						Primeiro navegador foi o MOSAIC, seguido do Netscape,
+						Internet Explorer e hoje contam com uma grande variedade
+						disponível.
+					</p>
+
+					<p>
+						Podemos ter uma base de compatibilidades entre
+						navegadores utilizando a tabela de referência de tags
+						HTML no
+						<a
+							href="https://www.w3schools.com/tags/ref_html.browsersupport.asp"
+							>site da W3Schools </a
+						>.
+					</p>
+				</div>
+
+				<div id="aplicacoes-web">
+					<h3>Aplicações Web</h3>
+
+					<p>
+						São soluções criadas que possuem a internet como meio de
+						comunicação Client/Server sem precisar de instalação no
+						seu dispositivo.
+					</p>
+					<p>
+						O que são ou não Aplicações Web?
+						<br />
+						Tudo que é usado via navegador é uma Aplicação Web.
+						Diferente de aplicações Instaladas no dispositivo que
+						remetem á um projeto diferente com linguagens de
+						programação específicas para cada dispositivo.
+					</p>
+					<p>
+						São mundos separados, mas existem semelhanças. São
+						problemas, caminhos e até estudos diferentes.
+					</p>
+				</div>
+
+				<div id="dispositivos-moveis">
+					<h3>Dispositivos Móveis</h3>
+
+					<p>
+						Dispositivo móvel é qualquer dispositivo computacional
+						que podemos levar conosco para qualquer lugar, como
+						celulares, notebooks, smartwatches e etc.
+					</p>
+					<p>
+						A demanda desses dispositivos é enorme por conta de sua
+						popularidade global, todo mundo hoje em dia possui um
+						celular.
+					</p>
+					<p>
+						Melhor ainda quando pensamos na demanda de soluções como
+						aplicativos instalados e aplicações web, vemos pessoas
+						que precisam dessas aplicações diariamente com uma
+						importância enorme.
+					</p>
+				</div>
+			</div>
+
+			<div id="o-que-sao-servers">
+				<h2>O que são Servers</h2>
+
+				<div id="sobre-servidores">
+					<h3>Sobre Servidores</h3>
+
+					<p>
+						Servidores são computadores especializados para atender
+						requisições de outros dispositivos no modelo
+						Client/Server. Também podemos definir que servem dados
+						para outros.
+					</p>
+					<p>
+						Geralmente têm um hardware mais robusto do que dos
+						dispositivos comuns por conta do alto fluxo de dados das
+						requisições e estabilidade geral.
+					</p>
+					<p>
+						Vale lembrar que Servidores não são somente
+						compreendidos pelos grandes Datacenters de empresas
+						globais como Facebook, uma empresa local também pode ter
+						um Servidor simples (um computador de gabinete por
+						exemplo) para fornecer dados na rede local (WAN).
+					</p>
+					<p>
+						Quando falamos de transmissão de dados pelas
+						requisições, não falamos somente de arquivos de páginas
+						da Web, mas também de Segurança (Firewalls com dados
+						sensíveis), Streaming de conteúdos pagos e gratuitos,
+						E-mails, e também a Web como citado anteriormente.
+					</p>
+				</div>
+
+				<div id="hardware-e-software-servidores">
+					<h3>Hardware e Software em Servidores</h3>
+
+					<p>
+						Todos os Servidores são dispositivos assim como os
+						Clientes, mas contam com especificidades de construção e
+						aplicações para atender as requisições.
+					</p>
+
+					<p>
+						Os servidores possuem Hardware próprio, capaz de
+						processar e armazenar dados, contando com componentes
+						como:
+					</p>
+
+					<ul>
+						<li>Armazenamento (discos rígidos (HDDs), SSDs)</li>
+						<li>Memória (armazenamento temporário)</li>
+						<li>
+							Processadores (existem próprios para Servidores)
+						</li>
+					</ul>
+
+					<p>
+						Falando de Software, os Servidores possuem os seus
+						próprios com adaptações para completar as requisições:
+					</p>
+
+					<ul>
+						<li>
+							<strong>Sistema Operacional:</strong> Abstrai o
+							Hardware e simplifica-o para as aplicações tirarem
+							proveito. Windows Server, Ubuntu, CentOS e Fedora
+							são exemplos.
+						</li>
+						<li>
+							<strong>Aplicações de Monitoramento:</strong>
+							Programas próprios para manter compatibilidades e
+							integridade de requisições e seus conteúdos.
+						</li>
+						<li>
+							<strong>Servidores Web:</strong> Aplicações que
+							formam bancos de dados capazes de armazenar e
+							organizar o conteúdo que vai ser requisitado. APACHE
+							E Nginx são exemplos.
+						</li>
+					</ul>
+
+					<p>
+						<strong
+							>Mas por que um desenvolvedor Front-End precisa
+							saber disso?</strong
+						>
+						Por conta da noção de fluxo que é necessária ao
+						desenvolver um site para ser hospedado.
+					</p>
+
+					<p>
+						Quando hospedamos um site, se ele rodar dentro de um
+						servidor logicamente consumirá o Hardware e Software do
+						mesmo. Assim, podemos ter noções de custos e contratar o
+						melhor sistema de hospedagem para nossa finalidade sem
+						prejuízo para o lado do Cliente.
+					</p>
+				</div>
+
+				<div id="tipos-de-servidores">
+					<h3>Tipos de Servidores</h3>
+
+					<p>
+						Como citado anteriormente, temos Servidores específicos
+						para requisições de Arquivos, Firewall, E-mail e Web,
+						mas também temos outros mais específicos ainda nessa
+						lista.
+					</p>
+
+					<ul>
+						<li>
+							<strong>Servidor Proxy:</strong>
+							<p>
+								Regula o acesso de um Cliente á Internet através
+								de regras pré-estabelecidas, como sites e IP's
+								específicos que podem ou não ser acessados.
+								Funciona como um limitador de acesso antes de
+								chegar a requisição na Internet em si e depois
+								no servidor requisitado, fora que também filtra
+								o que volta para o Cliente. Geralmente serve de
+								filtro para sites indesejados em empresas,
+								escolas e etc.
+							</p>
+						</li>
+
+						<li>
+							<strong>Servidor Firewall:</strong>
+							<p>
+								Defende os dispositivos de ataques externos
+								mal-intencionados, filtrando comportamento
+								estranho e requisições fora do comum. Fica entre
+								o dispositivo Cliente a Internet.
+							</p>
+						</li>
+
+						<li>
+							<strong>Servidor Database:</strong>
+							<p>
+								Comumente conectados a Servidores específicos de
+								uma Aplicação ou da Web, esses fornecem dados
+								vitais para as requisições. Sendo assim, o
+								Servidor da Aplicação busca os dados no Servidor
+								do Banco de Dados sempre que precisa.
+							</p>
+						</li>
+
+						<li>
+							<strong>Servidores com Intranet:</strong>
+							<p>
+								É possível requisitar dados de dispositivos
+								Clientes para Servidores sem intermédio da
+								Internet Global, utilizando somente uma rede
+								local própria para acessar o conteúdo. Essa rede
+								local, confinada e específica a um grupo de
+								pessoas dentro de uma empresa por exemplo é
+								chamada de Intranet.
+							</p>
+						</li>
+
+						<li>
+							<strong
+								>Servidores DNS (Domain Name Service):</strong
+							>
+							<p>
+								Responsáveis por conter uma lista de endereços
+								(domínios) da Web atrelados a um IP específico
+								(os mesmos criados no protocolo TCP/IP). É capaz
+								de direcionar um Cliente a um Servidor
+								específico somente pela busca do um domínio e
+								correspondência/resolução com um IP para o
+								navegador entrar no Servidor Web do site por
+								exemplo.
+							</p>
+
+							<p>
+								Esses domínios são cadastrados em sites
+								específicos para compra, pois além de verificar
+								sua disponibilidade na Internet, atribuem o
+								Servidor DNS ao endereço. Exemplo:
+								<a href="https://registro.br" target="_blank"
+									>Registro.br</a
+								>
+							</p>
+						</li>
+					</ul>
+				</div>
+
+				<div id="hospedagem-de-sites">
+					<h3>Hospedagem de Sites</h3>
+
+					<p>
+						Para hospedar um site na Internet para todos verem,
+						devemos ter:
+					</p>
+
+					<ul>
+						<li>
+							Servidor criado ou contratado para hospedar o site
+							(maneira mais fácil).
+						</li>
+
+						<li>
+							Domínio devidamente comprado para conectar com o DNS
+							do Servidor.
+						</li>
+					</ul>
+
+					<p>
+						Para contratar um Servidor e hospedar o site, existem
+						empresas que oferecem esse serviço com inúmeras
+						peculiaridades como Armazenamento, Sistema Operacional,
+						Suporte, Certificado
+						<abbr
+							title="Secure Sockets Layer (camada de soquete seguro)"
+							>SSL</abbr
+						><sup>*</sup> e etc.
+					</p>
+
+					<blockquote>
+						<i
+							>* Certificado
+							<abbr
+								title="Secure Sockets Layer (camada de soquete seguro)"
+								>SSL</abbr
+							>
+							garante que sua conexão com o Servidor seja segura
+							com protocolo
+							<abbr
+								title="Hypertext Transfer Protocol Secure (HTTPS)"
+								>HTTPS</abbr
+							>
+							e não
+							<abbr title="Hypertext Transfer Protocol (HTTP)"
+								>HTTP</abbr
+							>
+							por padrão. O que diferencia os dois protocolos é a
+							criptografia ponta á ponta do protocolo HTTPS,
+							significa que se houver alguma interceptação de
+							pacotes, esses dados estarão ilegíveis.</i
+						>
+					</blockquote>
+
+					<p>
+						É importante lembrar que dependendo do plano de serviço
+						contratado, podemos dar mais de uma função para o
+						Servidor além de fornecer arquivos para páginas da Web
+						(outros tipos de Servidores foram abordados antes).
+					</p>
+
+					<p>
+						Algumas empresas oferecem o cadastro e pagamento do
+						Domínio junto com a hospedagem, mas essa etapa pode ser
+						feita antes considerando as variações de Domínio (.com e
+						.com.br se não for oferecido por exemplo).
+					</p>
+
+					<p>
+						Se comprarmos o Domínio antes, temos a opção de ter
+						Servidores DNS atrelados ao mesmo logo de cara, ou
+						atrelá-los depois da compra da hospedagem.
+					</p>
+
+					<p>
+						<strong
+							>Mas como os arquivos do meu site irão para dentro
+							do Servidor?</strong
+						>
+						<br />Através de transferência por Servidor
+						<abbr title="File Transfer Protocol">FTP</abbr>.
+
+						<br />A empresa responsável pela hospedagem/contratação
+						do Servidor fornece os dados de acesso FTP ao mesmo,
+						podendo assim abrir uma conexão temporária para mover
+						tudo que for necessário para dentro dele.
+					</p>
+				</div>
+			</div>
+
+			<div id="linguagens-de-programacao">
+				<h2>Linguagens de Programação</h2>
+
+				<div id="o-que-e-linguagens">
+					<h3>O que é</h3>
+
+					<p>
+						É uma linguagem de escrita formal que especifica um
+						conjunto de instruções e regras usadas para gerar
+						programas (software).
+					</p>
+
+					<p>
+						Conjunto de informações que geram um código com
+						instruções bem definidas.
+					</p>
+
+					<p>
+						Existem linguagens próprias para cada contexto e
+						aplicação, só porque uma linguagem é famosa não
+						significa que ela é a melhor para utilizarmos.
+						Linguagens podem se sobressair dependendo disso.
+					</p>
+
+					<p>
+						Além do mais, a linguagem não é a principal
+						solucionadora de um problema computacional, e sim o
+						programador com seu conhecimento. São o meio, e não a
+						solução.
+					</p>
+				</div>
+
+				<div id="linguagens-server-side">
+					<h3>Linguagens Server-Side</h3>
+
+					<p>Exemplos de Linguagem que rodam no lado do Servidor:</p>
+
+					<ul>
+						<li>- PHP (já foi pioneiro mas ainda é forte)</li>
+						<li>Ruby</li>
+						<li>C#</li>
+						<li>Java</li>
+						<li>Javascript</li>
+					</ul>
+
+					<p>
+						Cada uma com suas particularidades e características, é
+						preciso estudá-las para saber quando e qual usar para
+						fazer um site completo com autonomia.
+					</p>
+
+					<p>
+						Prefira aquela que a comunidade é mais engajada e
+						aprenda ao menos uma, "morrer de fome você não vai".
+					</p>
+
+					<p>
+						Linguagens com comunidade engajada significa melhores
+						conteúdos, documentações, e discussões. Linguagens
+						antigas talvez não tenham isso tão facilmente. E além
+						disso, experimente um pouco de cada uma.
+					</p>
+				</div>
+
+				<div id="linguagens-client-side">
+					<h3>Linguagens Client-Side</h3>
+
+					<p>
+						Existem outras Linguagens que rodam Aplicações Web, mas
+						nosso foco é Javascript. Justamente por conta da curva
+						de aprendizado para iniciantes, sua versatilidade, além
+						de que o Navegador é programado para rodar HTML, CSS e
+						Javascript.
+					</p>
+
+					<p>
+						Mas como Javascript roda nos dois lados da conexão? A
+						explicação surge dentro da Engine de interpretação da
+						Linguagem, a V8 criada pelo Google.
+					</p>
+
+					<p>
+						Naturalmente, o navegador não é capaz de interpretar e
+						interagir com o código, mas tem esse módulo incluso (que
+						inclusive é padrão entre os navegadores) que faz a ponte
+						entre a página e o código em ".js".
+					</p>
+
+					<p>
+						Do mesmo modo, o V8 também está presente no lado do
+						Servidor, mas embutido no ambiente de desenvolvimento
+						node.js, um software baseado em Javascript com mais
+						recursos para gerenciamento de pacotes dentro do
+						Server-Side.
+					</p>
+
+					<p>
+						Assim, aprendendo Javascript é mais fácil migrar para os
+						dois lados da conexão, ainda podendo se especializar no
+						Node.
+					</p>
+
+					<blockquote>
+						Para mais informações sobre a Engine V8:
+						<a href="https://v8.dev/" target="_blank">Site da V8</a
+						>.
+					</blockquote>
+				</div>
+
+				<div id="html-nao-e-linguagem-de-programacao">
+					<h3>HTML não é Linguagem de Programação</h3>
+
+					<p>
+						<abbr title="Hypertext Markup Language">HTML</abbr> é um
+						arquivo de marcação, composto por delimitadores para
+						marcar elementos.
+					</p>
+
+					<p>
+						Esses elementos são determinados por textos dentro dos
+						delimitadores que o navegador pode interpretar.
+					</p>
+
+					<p>
+						Cada um desses delimitadores (ou tags) tem uma função e
+						comportamento específico.
+					</p>
+
+					<p>
+						Podemos comparar o HTML com o
+						<abbr title="Comma Separated Values">CSV</abbr>, que
+						também é um arquivo de marcação. O CSV marca tabelas
+						facilmente reconhecíveis por Editores de Texto
+						independente de Sistema Operacional.
+					</p>
+
+					<p><strong>exemplo em CSV:</strong></p>
+					<pre>
+	Id;Nome;Idade;Email 		-> cabeçalho
+	1;Maria Lucia;43;maria@dio.me 	-> dados da tabela 
+	2;Jorge Almeida;23;jorge@dio.me -> ";" delimitam
+					</pre
+					>
+
+					<p><strong>exemplo em HTML:</strong></p>
+					<pre>
+	&lt;p&gt;     						<small>-> abre parágrafo</small>
+		Eu curto demais &lt;strong&gt;&lt;i&gt;DIO!&lt;/i&gt;&lt;/strong&gt;
+	&lt;/p&gt;     						<small>-> fecha parágrafo</small>
+
+	&lt;strong&gt;&lt;/strong&gt;   					<small>-> delimita texto em negrito</small>
+	&lt;i&gt;&lt;/i&gt;                       				<small>-> delimita texto em itálico</small>
+					</pre>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
